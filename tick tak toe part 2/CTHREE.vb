@@ -1,24 +1,17 @@
-﻿Public Class _4_tile_programs
+﻿Public Class CTHREE
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Startm.Hide()
+    Private Sub c_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+
         tiktak.Hide()
 
-        MAIN.Show()
+
         My.Computer.Audio.Play("C:\Users\ACER\Music\Minoru 187 - Gaming Background Music (HD).wav.wav")
         XTURN.Visible = True
         OTURN.Visible = False
     End Sub
 
-    Private Sub PlayC_Click(sender As Object, e As EventArgs) Handles PlayC.Click
-        Startm.Show()
-        MAIN.Hide()
-    End Sub
 
-    Private Sub PlayM_Click(sender As Object, e As EventArgs) Handles PlayM.Click
-        Form2.Show()
-        Me.Hide()
-    End Sub
 
 
 
@@ -35,7 +28,7 @@
             If XTURN.Visible = True Then
 
                 Button1.Text = "X"
-                Button1.BackColor = Color.CornflowerBlue
+                Button1.BackColor = Color.Beige
                 Button1.ForeColor = Color.Black
                 XTURN.Visible = False
                 OTURN.Visible = True
@@ -47,7 +40,7 @@
             ElseIf OTURN.Visible = True Then
 
                 Button1.Text = "O"
-                Button1.BackColor = Color.SteelBlue
+                Button1.BackColor = Color.BurlyWood
                 Button1.ForeColor = Color.White
                 OTURN.Visible = False
                 XTURN.Visible = True
@@ -69,7 +62,7 @@
             If XTURN.Visible = True Then
 
                 Button2.Text = "X"
-                Button2.BackColor = Color.CornflowerBlue
+                Button2.BackColor = Color.Beige
                 Button2.ForeColor = Color.Black
                 XTURN.Visible = False
                 OTURN.Visible = True
@@ -80,7 +73,7 @@
             ElseIf OTURN.Visible = True Then
 
                 Button2.Text = "O"
-                Button2.BackColor = Color.SteelBlue
+                Button2.BackColor = Color.BurlyWood
                 Button2.ForeColor = Color.White
                 OTURN.Visible = False
                 XTURN.Visible = True
@@ -100,7 +93,7 @@
             If XTURN.Visible = True Then
 
                 Button3.Text = "X"
-                Button3.BackColor = Color.CornflowerBlue
+                Button3.BackColor = Color.Beige
                 Button3.ForeColor = Color.Black
                 XTURN.Visible = False
                 OTURN.Visible = True
@@ -110,7 +103,7 @@
             ElseIf OTURN.Visible = True Then
 
                 Button3.Text = "O"
-                Button3.BackColor = Color.SteelBlue
+                Button3.BackColor = Color.BurlyWood
                 Button3.ForeColor = Color.White
                 OTURN.Visible = False
                 XTURN.Visible = True
@@ -131,7 +124,7 @@
             If XTURN.Visible = True Then
 
                 Button4.Text = "X"
-                Button4.BackColor = Color.CornflowerBlue
+                Button4.BackColor = Color.Beige
                 Button4.ForeColor = Color.Black
                 XTURN.Visible = False
                 OTURN.Visible = True
@@ -141,7 +134,7 @@
             ElseIf OTURN.Visible = True Then
 
                 Button4.Text = "O"
-                Button4.BackColor = Color.SteelBlue
+                Button4.BackColor = Color.BurlyWood
                 Button4.ForeColor = Color.White
                 OTURN.Visible = False
                 XTURN.Visible = True
@@ -162,7 +155,7 @@
             If XTURN.Visible = True Then
 
                 Button5.Text = "X"
-                Button5.BackColor = Color.CornflowerBlue
+                Button5.BackColor = Color.Beige
                 Button5.ForeColor = Color.Black
                 XTURN.Visible = False
                 OTURN.Visible = True
@@ -173,7 +166,7 @@
             ElseIf OTURN.Visible = True Then
 
                 Button5.Text = "O"
-                Button5.BackColor = Color.SteelBlue
+                Button5.BackColor = Color.BurlyWood
                 Button5.ForeColor = Color.White
                 OTURN.Visible = False
                 XTURN.Visible = True
@@ -195,7 +188,7 @@
             If XTURN.Visible = True Then
 
                 Button6.Text = "X"
-                Button6.BackColor = Color.CornflowerBlue
+                Button6.BackColor = Color.Beige
                 Button6.ForeColor = Color.Black
                 XTURN.Visible = False
                 OTURN.Visible = True
@@ -206,7 +199,7 @@
             ElseIf OTURN.Visible = True Then
 
                 Button6.Text = "O"
-                Button6.BackColor = Color.SteelBlue
+                Button6.BackColor = Color.BurlyWood
                 Button6.ForeColor = Color.White
                 OTURN.Visible = False
                 XTURN.Visible = True
@@ -227,7 +220,7 @@
             If XTURN.Visible = True Then
 
                 Button7.Text = "X"
-                Button7.BackColor = Color.CornflowerBlue
+                Button7.BackColor = Color.Beige
                 Button7.ForeColor = Color.Black
                 XTURN.Visible = False
                 OTURN.Visible = True
@@ -238,7 +231,7 @@
             ElseIf OTURN.Visible = True Then
 
                 Button7.Text = "O"
-                Button7.BackColor = Color.SteelBlue
+                Button7.BackColor = Color.BurlyWood
                 Button7.ForeColor = Color.White
                 OTURN.Visible = False
                 XTURN.Visible = True
@@ -260,7 +253,7 @@
             If XTURN.Visible = True Then
 
                 Button8.Text = "X"
-                Button8.BackColor = Color.CornflowerBlue
+                Button8.BackColor = Color.Beige
                 Button8.ForeColor = Color.Black
                 XTURN.Visible = False
                 OTURN.Visible = True
@@ -270,8 +263,9 @@
             ElseIf OTURN.Visible = True Then
 
                 Button8.Text = "O"
-                Button8.BackColor = Color.SteelBlue
+                Button8.BackColor = Color.BurlyWood
                 Button8.ForeColor = Color.White
+
                 OTURN.Visible = False
                 XTURN.Visible = True
                 If OPLAYER1.Checked = True Then
@@ -292,7 +286,7 @@
             If XTURN.Visible = True Then
 
                 Button9.Text = "X"
-                Button9.BackColor = Color.CornflowerBlue
+                Button9.BackColor = Color.Beige
                 Button9.ForeColor = Color.Black
                 XTURN.Visible = False
                 OTURN.Visible = True
@@ -302,7 +296,7 @@
             ElseIf OTURN.Visible = True Then
 
                 Button9.Text = "O"
-                Button9.BackColor = Color.SteelBlue
+                Button9.BackColor = Color.BurlyWood
                 Button9.ForeColor = Color.White
                 OTURN.Visible = False
                 XTURN.Visible = True
@@ -364,7 +358,8 @@
 
     'new game
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
-        MAIN.Show()
+        Mainpage.Show()
+        Me.Hide()
         tiktak.Hide()
         TextBox1.Text = ""
 
@@ -455,7 +450,7 @@
                 B.Text = c
                 If Winnerfu(c) Then
                     B.Text = "X"
-                    B.BackColor = Color.CornflowerBlue
+                    B.BackColor = Color.Beige
                     B.ForeColor = Color.Black
                     XTURN.Visible = False
                     OTURN.Visible = True
@@ -481,7 +476,7 @@
         If cornerbutton.Count > 0 Then
             tempbut = cornerbutton(New Random().Next(0, cornerbutton.Count - 1))
             tempbut.Text = "X"
-            tempbut.BackColor = Color.CornflowerBlue
+            tempbut.BackColor = Color.Beige
             tempbut.ForeColor = Color.Black
             XTURN.Visible = False
             OTURN.Visible = True
@@ -490,7 +485,7 @@
         ' Middle one
         If Possibleinput.Contains(Button5) Then
             Button5.Text = "X"
-            Button5.BackColor = Color.CornflowerBlue
+            Button5.BackColor = Color.Beige
             Button5.ForeColor = Color.Black
             XTURN.Visible = False
             OTURN.Visible = True
@@ -508,7 +503,7 @@
         If edge.Count > 0 Then
             tempbut = edge(New Random().Next(0, edge.Count - 1))
             tempbut.Text = "X"
-            tempbut.BackColor = Color.CornflowerBlue
+            tempbut.BackColor = Color.Beige
             Button7.ForeColor = Color.Black
             XTURN.Visible = False
             OTURN.Visible = True
@@ -564,7 +559,7 @@
                 B.Text = c
                 If Winnerfu(c) Then
                     B.Text = "O"
-                    B.BackColor = Color.SteelBlue
+                    B.BackColor = Color.BurlyWood
                     B.ForeColor = Color.White
                     OTURN.Visible = False
                     XTURN.Visible = True
@@ -589,7 +584,7 @@
         If cornerbutton.Count > 0 Then
             tempbut = cornerbutton(New Random().Next(0, cornerbutton.Count - 1))
             tempbut.Text = "O"
-            tempbut.BackColor = Color.SteelBlue
+            tempbut.BackColor = Color.BurlyWood
             tempbut.ForeColor = Color.White
             OTURN.Visible = False
 
@@ -599,7 +594,7 @@
         ' Middle one
         If Possibleinput.Contains(Button5) Then
             Button5.Text = "O"
-            Button5.BackColor = Color.SteelBlue
+            Button5.BackColor = Color.BurlyWood
             Button5.ForeColor = Color.White
             OTURN.Visible = False
             XTURN.Visible = True
@@ -617,7 +612,7 @@
         If edge.Count > 0 Then
             tempbut = edge(New Random().Next(0, edge.Count - 1))
             tempbut.Text = "O"
-            tempbut.BackColor = Color.SteelBlue
+            tempbut.BackColor = Color.BurlyWood
             tempbut.ForeColor = Color.White
             OTURN.Visible = False
             XTURN.Visible = True
@@ -768,5 +763,6 @@
         Resetbutton()
 
     End Sub
+
 
 End Class

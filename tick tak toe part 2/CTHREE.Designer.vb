@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class _4_tile_programs
+Partial Class CTHREE
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -42,10 +42,6 @@ Partial Class _4_tile_programs
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.PlayM = New System.Windows.Forms.Button()
-        Me.PlayC = New System.Windows.Forms.Button()
-        Me.MAIN = New System.Windows.Forms.Panel()
         Me.OPLAYER1 = New System.Windows.Forms.CheckBox()
         Me.XPLAYER1 = New System.Windows.Forms.CheckBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -58,7 +54,6 @@ Partial Class _4_tile_programs
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Startm = New System.Windows.Forms.Panel()
         Me.tiktak.SuspendLayout()
-        Me.MAIN.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Startm.SuspendLayout()
         Me.SuspendLayout()
@@ -70,6 +65,7 @@ Partial Class _4_tile_programs
         '
         'tiktak
         '
+        Me.tiktak.BackColor = System.Drawing.Color.Tan
         Me.tiktak.Controls.Add(Me.Score2)
         Me.tiktak.Controls.Add(Me.Score1)
         Me.tiktak.Controls.Add(Me.Label5)
@@ -116,11 +112,11 @@ Partial Class _4_tile_programs
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe UI Semibold", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label5.Location = New System.Drawing.Point(33, 548)
+        Me.Label5.Location = New System.Drawing.Point(26, 548)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(139, 45)
+        Me.Label5.Size = New System.Drawing.Size(171, 45)
         Me.Label5.TabIndex = 14
-        Me.Label5.Text = "Player 2"
+        Me.Label5.Text = "Computer"
         '
         'Label4
         '
@@ -172,30 +168,38 @@ Partial Class _4_tile_programs
         '
         'Button7
         '
+        Me.Button7.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button7.Font = New System.Drawing.Font("Segoe UI Symbol", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button7.Location = New System.Drawing.Point(193, 335)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(153, 142)
         Me.Button7.TabIndex = 8
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.Button7.UseVisualStyleBackColor = False
         '
         'Button8
         '
+        Me.Button8.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button8.Font = New System.Drawing.Font("Segoe UI Symbol", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button8.ForeColor = System.Drawing.Color.Black
         Me.Button8.Location = New System.Drawing.Point(352, 335)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(153, 142)
         Me.Button8.TabIndex = 7
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.Button8.UseVisualStyleBackColor = False
         '
         'Button9
         '
+        Me.Button9.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button9.Font = New System.Drawing.Font("Segoe UI Symbol", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button9.Location = New System.Drawing.Point(511, 335)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(153, 142)
         Me.Button9.TabIndex = 6
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.Button9.UseVisualStyleBackColor = False
         '
         'Button4
         '
+        Me.Button4.Font = New System.Drawing.Font("Segoe UI Symbol", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button4.Location = New System.Drawing.Point(193, 187)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(153, 142)
@@ -204,6 +208,7 @@ Partial Class _4_tile_programs
         '
         'Button5
         '
+        Me.Button5.Font = New System.Drawing.Font("Segoe UI Symbol", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button5.Location = New System.Drawing.Point(352, 187)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(153, 142)
@@ -212,6 +217,7 @@ Partial Class _4_tile_programs
         '
         'Button6
         '
+        Me.Button6.Font = New System.Drawing.Font("Segoe UI Symbol", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button6.Location = New System.Drawing.Point(511, 187)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(153, 142)
@@ -220,6 +226,7 @@ Partial Class _4_tile_programs
         '
         'Button3
         '
+        Me.Button3.Font = New System.Drawing.Font("Segoe UI Symbol", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button3.Location = New System.Drawing.Point(511, 39)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(153, 142)
@@ -228,6 +235,7 @@ Partial Class _4_tile_programs
         '
         'Button2
         '
+        Me.Button2.Font = New System.Drawing.Font("Segoe UI Symbol", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button2.Location = New System.Drawing.Point(352, 39)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(153, 142)
@@ -236,51 +244,12 @@ Partial Class _4_tile_programs
         '
         'Button1
         '
+        Me.Button1.Font = New System.Drawing.Font("Segoe UI Symbol", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button1.Location = New System.Drawing.Point(193, 39)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(153, 142)
         Me.Button1.TabIndex = 0
         Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(21, 32)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(742, 54)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Want to play Tick Tak Toe game with ?"
-        '
-        'PlayM
-        '
-        Me.PlayM.Font = New System.Drawing.Font("Bell MT", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.PlayM.Location = New System.Drawing.Point(259, 182)
-        Me.PlayM.Name = "PlayM"
-        Me.PlayM.Size = New System.Drawing.Size(276, 53)
-        Me.PlayM.TabIndex = 1
-        Me.PlayM.Text = "Multiplayer"
-        Me.PlayM.UseVisualStyleBackColor = True
-        '
-        'PlayC
-        '
-        Me.PlayC.Font = New System.Drawing.Font("Bell MT", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.PlayC.Location = New System.Drawing.Point(259, 113)
-        Me.PlayC.Name = "PlayC"
-        Me.PlayC.Size = New System.Drawing.Size(277, 53)
-        Me.PlayC.TabIndex = 0
-        Me.PlayC.Text = "Computer"
-        Me.PlayC.UseVisualStyleBackColor = True
-        '
-        'MAIN
-        '
-        Me.MAIN.Controls.Add(Me.Label2)
-        Me.MAIN.Controls.Add(Me.PlayM)
-        Me.MAIN.Controls.Add(Me.PlayC)
-        Me.MAIN.Location = New System.Drawing.Point(166, 143)
-        Me.MAIN.Name = "MAIN"
-        Me.MAIN.Size = New System.Drawing.Size(819, 254)
-        Me.MAIN.TabIndex = 5
         '
         'OPLAYER1
         '
@@ -387,26 +356,25 @@ Partial Class _4_tile_programs
         Me.Startm.Controls.Add(Me.Startc)
         Me.Startm.Controls.Add(Me.OPLAYER1)
         Me.Startm.Controls.Add(Me.XPLAYER1)
-        Me.Startm.Location = New System.Drawing.Point(150, 171)
+        Me.Startm.Location = New System.Drawing.Point(109, 176)
         Me.Startm.Name = "Startm"
         Me.Startm.Size = New System.Drawing.Size(920, 223)
         Me.Startm.TabIndex = 6
         '
-        '_4_tile_programs
+        'CTHREE
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1353, 893)
-        Me.Controls.Add(Me.MAIN)
+        Me.BackColor = System.Drawing.Color.Tan
+        Me.ClientSize = New System.Drawing.Size(1132, 845)
+        Me.Controls.Add(Me.Startm)
         Me.Controls.Add(Me.tiktak)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Startm)
-        Me.Name = "_4_tile_programs"
+        Me.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Name = "CTHREE"
         Me.Text = "_4_tile_programs"
         Me.tiktak.ResumeLayout(False)
         Me.tiktak.PerformLayout()
-        Me.MAIN.ResumeLayout(False)
-        Me.MAIN.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.Startm.ResumeLayout(False)
@@ -434,10 +402,6 @@ Partial Class _4_tile_programs
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
-    Friend WithEvents Label2 As Label
-    Friend WithEvents PlayM As Button
-    Friend WithEvents PlayC As Button
-    Friend WithEvents MAIN As Panel
     Friend WithEvents OPLAYER1 As CheckBox
     Friend WithEvents XPLAYER1 As CheckBox
     Friend WithEvents Panel1 As Panel

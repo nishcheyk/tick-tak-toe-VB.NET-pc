@@ -1,6 +1,6 @@
 ﻿Imports System.ComponentModel
 
-Public Class Form2
+Public Class MTHREE
     Private Const V As Boolean = False
     'EXIT BUTTON 
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles exit1.Click
@@ -518,7 +518,7 @@ Public Class Form2
 
     ' WHEN NEW GAME IS CLICK  EVERY THING RESET 
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
-        Form1.Show()
+        Mainpage.Show()
         Me.Hide()
         tiktaktoe.Hide()
         TextBox1.Text = ""

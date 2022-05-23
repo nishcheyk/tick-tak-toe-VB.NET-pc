@@ -33,9 +33,29 @@
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        MTHREE.
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles t3.Click
+        MTHREE.Show()
 
+        Me.Hide()
+    End Sub
+
+    Private Sub Tile3_Click(sender As Object, e As EventArgs) Handles tile3.Click
+        CTHREE.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub exit1_Click(sender As Object, e As EventArgs) Handles exit1.Click
+        Me.Close()
+    End Sub
+
+    Private Sub tile4_Click(sender As Object, e As EventArgs) Handles tile4.Click
+        CFOUR.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub t4_Click(sender As Object, e As EventArgs) Handles t4.Click
+        MFOUR.Show()
+        Me.Hide()
     End Sub
 End Class
 

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form2
+Partial Class MTHREE
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -102,7 +102,7 @@ Partial Class Form2
         Me.exit1.BackColor = System.Drawing.Color.Crimson
         Me.exit1.Font = New System.Drawing.Font("Segoe UI", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.exit1.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.exit1.Location = New System.Drawing.Point(1058, 4)
+        Me.exit1.Location = New System.Drawing.Point(1026, 19)
         Me.exit1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.exit1.Name = "exit1"
         Me.exit1.Size = New System.Drawing.Size(120, 62)
@@ -134,17 +134,17 @@ Partial Class Form2
         Me.Start1.Controls.Add(Me.TextBox1)
         Me.Start1.Controls.Add(Me.Label3)
         Me.Start1.Controls.Add(Me.Label2)
-        Me.Start1.Location = New System.Drawing.Point(712, 148)
+        Me.Start1.Location = New System.Drawing.Point(12, 352)
         Me.Start1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Start1.Name = "Start1"
-        Me.Start1.Size = New System.Drawing.Size(912, 272)
+        Me.Start1.Size = New System.Drawing.Size(1130, 272)
         Me.Start1.TabIndex = 18
         Me.Start1.UseWaitCursor = True
         '
         'Start
         '
         Me.Start.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Start.Location = New System.Drawing.Point(354, 184)
+        Me.Start.Location = New System.Drawing.Point(415, 187)
         Me.Start.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Start.Name = "Start"
         Me.Start.Size = New System.Drawing.Size(283, 68)
@@ -156,7 +156,7 @@ Partial Class Form2
         'OPLAYER2
         '
         Me.OPLAYER2.AutoSize = True
-        Me.OPLAYER2.Location = New System.Drawing.Point(682, 99)
+        Me.OPLAYER2.Location = New System.Drawing.Point(743, 102)
         Me.OPLAYER2.Margin = New System.Windows.Forms.Padding(10)
         Me.OPLAYER2.Name = "OPLAYER2"
         Me.OPLAYER2.Size = New System.Drawing.Size(42, 24)
@@ -168,7 +168,7 @@ Partial Class Form2
         'XPLAYER2
         '
         Me.XPLAYER2.AutoSize = True
-        Me.XPLAYER2.Location = New System.Drawing.Point(640, 99)
+        Me.XPLAYER2.Location = New System.Drawing.Point(701, 102)
         Me.XPLAYER2.Margin = New System.Windows.Forms.Padding(10)
         Me.XPLAYER2.Name = "XPLAYER2"
         Me.XPLAYER2.Size = New System.Drawing.Size(40, 24)
@@ -180,7 +180,7 @@ Partial Class Form2
         'OPLAYER1
         '
         Me.OPLAYER1.AutoSize = True
-        Me.OPLAYER1.Location = New System.Drawing.Point(682, 59)
+        Me.OPLAYER1.Location = New System.Drawing.Point(743, 62)
         Me.OPLAYER1.Margin = New System.Windows.Forms.Padding(10)
         Me.OPLAYER1.Name = "OPLAYER1"
         Me.OPLAYER1.Size = New System.Drawing.Size(42, 24)
@@ -192,7 +192,7 @@ Partial Class Form2
         'XPLAYER1
         '
         Me.XPLAYER1.AutoSize = True
-        Me.XPLAYER1.Location = New System.Drawing.Point(640, 59)
+        Me.XPLAYER1.Location = New System.Drawing.Point(701, 62)
         Me.XPLAYER1.Margin = New System.Windows.Forms.Padding(10)
         Me.XPLAYER1.Name = "XPLAYER1"
         Me.XPLAYER1.Size = New System.Drawing.Size(40, 24)
@@ -204,7 +204,7 @@ Partial Class Form2
         'TextBox2
         '
         Me.TextBox2.AccessibleName = "QBCDC"
-        Me.TextBox2.Location = New System.Drawing.Point(422, 101)
+        Me.TextBox2.Location = New System.Drawing.Point(483, 104)
         Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(205, 27)
@@ -213,7 +213,7 @@ Partial Class Form2
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(422, 58)
+        Me.TextBox1.Location = New System.Drawing.Point(483, 61)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 5, 3, 2)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(205, 27)
@@ -224,7 +224,7 @@ Partial Class Form2
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI Semibold", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(246, 85)
+        Me.Label3.Location = New System.Drawing.Point(307, 88)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(139, 45)
         Me.Label3.TabIndex = 1
@@ -235,7 +235,7 @@ Partial Class Form2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(246, 40)
+        Me.Label2.Location = New System.Drawing.Point(307, 43)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(134, 45)
         Me.Label2.TabIndex = 0
@@ -459,7 +459,7 @@ Partial Class Form2
         Me.Button5.TabIndex = 5
         Me.Button5.UseVisualStyleBackColor = True
         '
-        'Form2
+        'MTHREE
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -469,7 +469,7 @@ Partial Class Form2
         Me.Controls.Add(Me.tiktaktoe)
         Me.Controls.Add(Me.Panel1)
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Name = "Form2"
+        Me.Name = "MTHREE"
         Me.Text = "welcome to the game tick tak toe by nishchey khajuria"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
