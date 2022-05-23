@@ -10,6 +10,7 @@ Public Class Form2
     'STARTING THE  GAME TO PLAY BY CLICKING STAT BUTTON
     Private Sub Start_Click(sender As Object, e As EventArgs) Handles Start.Click
 
+
         If XPLAYER1.Checked Or OPLAYER1.Checked Then
 
 

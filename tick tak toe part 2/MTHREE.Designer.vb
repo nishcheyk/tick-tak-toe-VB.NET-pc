@@ -108,7 +108,7 @@ Partial Class Form2
         Me.exit1.Size = New System.Drawing.Size(120, 62)
         Me.exit1.TabIndex = 11
         Me.exit1.Text = "EXIT"
-        Me.exit1.UseVisualStyleBackColor = V
+        Me.exit1.UseVisualStyleBackColor = False
         '
         'Button12
         '
@@ -122,7 +122,6 @@ Partial Class Form2
         Me.Button12.TabIndex = 13
         Me.Button12.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
         Me.Button12.UseVisualStyleBackColor = True
-        Me.Button12.Visible = V
         '
         'Start1
         '
@@ -135,13 +134,12 @@ Partial Class Form2
         Me.Start1.Controls.Add(Me.TextBox1)
         Me.Start1.Controls.Add(Me.Label3)
         Me.Start1.Controls.Add(Me.Label2)
-        Me.Start1.Location = New System.Drawing.Point(108, 154)
+        Me.Start1.Location = New System.Drawing.Point(712, 148)
         Me.Start1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Start1.Name = "Start1"
         Me.Start1.Size = New System.Drawing.Size(912, 272)
         Me.Start1.TabIndex = 18
         Me.Start1.UseWaitCursor = True
-        Me.Start1.Visible = V
         '
         'Start
         '
@@ -159,7 +157,7 @@ Partial Class Form2
         '
         Me.OPLAYER2.AutoSize = True
         Me.OPLAYER2.Location = New System.Drawing.Point(682, 99)
-        Me.OPLAYER2.Margin = New System.Windows.Forms.Padding(10, 10, 10, 10)
+        Me.OPLAYER2.Margin = New System.Windows.Forms.Padding(10)
         Me.OPLAYER2.Name = "OPLAYER2"
         Me.OPLAYER2.Size = New System.Drawing.Size(42, 24)
         Me.OPLAYER2.TabIndex = 7
@@ -171,7 +169,7 @@ Partial Class Form2
         '
         Me.XPLAYER2.AutoSize = True
         Me.XPLAYER2.Location = New System.Drawing.Point(640, 99)
-        Me.XPLAYER2.Margin = New System.Windows.Forms.Padding(10, 10, 10, 10)
+        Me.XPLAYER2.Margin = New System.Windows.Forms.Padding(10)
         Me.XPLAYER2.Name = "XPLAYER2"
         Me.XPLAYER2.Size = New System.Drawing.Size(40, 24)
         Me.XPLAYER2.TabIndex = 6
@@ -183,7 +181,7 @@ Partial Class Form2
         '
         Me.OPLAYER1.AutoSize = True
         Me.OPLAYER1.Location = New System.Drawing.Point(682, 59)
-        Me.OPLAYER1.Margin = New System.Windows.Forms.Padding(10, 10, 10, 10)
+        Me.OPLAYER1.Margin = New System.Windows.Forms.Padding(10)
         Me.OPLAYER1.Name = "OPLAYER1"
         Me.OPLAYER1.Size = New System.Drawing.Size(42, 24)
         Me.OPLAYER1.TabIndex = 5
@@ -195,7 +193,7 @@ Partial Class Form2
         '
         Me.XPLAYER1.AutoSize = True
         Me.XPLAYER1.Location = New System.Drawing.Point(640, 59)
-        Me.XPLAYER1.Margin = New System.Windows.Forms.Padding(10, 10, 10, 10)
+        Me.XPLAYER1.Margin = New System.Windows.Forms.Padding(10)
         Me.XPLAYER1.Name = "XPLAYER1"
         Me.XPLAYER1.Size = New System.Drawing.Size(40, 24)
         Me.XPLAYER1.TabIndex = 4
@@ -270,7 +268,6 @@ Partial Class Form2
         Me.tiktaktoe.Name = "tiktaktoe"
         Me.tiktaktoe.Size = New System.Drawing.Size(1088, 642)
         Me.tiktaktoe.TabIndex = 18
-        Me.tiktaktoe.Visible = V
         '
         'Button11
         '
@@ -474,13 +471,13 @@ Partial Class Form2
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Form2"
         Me.Text = "welcome to the game tick tak toe by nishchey khajuria"
-        Me.Panel1.ResumeLayout(V)
+        Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        Me.Start1.ResumeLayout(V)
+        Me.Start1.ResumeLayout(False)
         Me.Start1.PerformLayout()
-        Me.tiktaktoe.ResumeLayout(V)
+        Me.tiktaktoe.ResumeLayout(False)
         Me.tiktaktoe.PerformLayout()
-        Me.ResumeLayout(V)
+        Me.ResumeLayout(False)
 
     End Sub
 

@@ -1,4 +1,5 @@
-﻿Public Class Form1
+﻿Public Class _4_tile_programs
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Startm.Hide()
         tiktak.Hide()
@@ -520,26 +521,28 @@
 
     Public Function Winnerfu(ByVal cor As Char)
         Return (Button1.Text = "X" And Button2.Text = "X" And Button3.Text = cor Or
-            Button4.Text = "X" And Button5.Text = "X" And Button6.Text = cor Or
-            Button7.Text = "X" And Button8.Text = "X" And Button9.Text = cor Or
-            Button1.Text = "X" And Button4.Text = "X" And Button7.Text = cor Or
-            Button2.Text = "X" And Button5.Text = "X" And Button8.Text = cor Or
-            Button3.Text = "X" And Button6.Text = "X" And Button9.Text = cor Or
-            Button1.Text = "X" And Button5.Text = "X" And Button9.Text = cor Or
-            Button3.Text = "X" And Button5.Text = "X" And Button7.Text = cor Or
-            Button1.Text = "O" And Button2.Text = "O" And Button3.Text = cor Or
-            Button4.Text = "O" And Button5.Text = "O" And Button6.Text = cor Or
-            Button7.Text = "O" And Button8.Text = "O" And Button9.Text = cor Or
-            Button1.Text = "O" And Button4.Text = "O" And Button7.Text = cor Or
-            Button2.Text = "O" And Button5.Text = "O" And Button8.Text = cor Or
-            Button3.Text = "O" And Button6.Text = "O" And Button9.Text = cor Or
-            Button1.Text = "O" And Button5.Text = "O" And Button9.Text = cor Or
-            Button3.Text = "O" And Button5.Text = "O" And Button7.Text = cor)
+                Button4.Text = "X" And Button5.Text = "X" And Button6.Text = cor Or
+                Button7.Text = "X" And Button8.Text = "X" And Button9.Text = cor Or
+                Button1.Text = "X" And Button4.Text = "X" And Button7.Text = cor Or
+                Button2.Text = "X" And Button5.Text = "X" And Button8.Text = cor Or
+                Button3.Text = "X" And Button6.Text = "X" And Button9.Text = cor Or
+                Button1.Text = "X" And Button5.Text = "X" And Button9.Text = cor Or
+                Button3.Text = "X" And Button5.Text = "X" And Button7.Text = cor Or
+                Button1.Text = "O" And Button2.Text = "O" And Button3.Text = cor Or
+                Button4.Text = "O" And Button5.Text = "O" And Button6.Text = cor Or
+                Button7.Text = "O" And Button8.Text = "O" And Button9.Text = cor Or
+                Button1.Text = "O" And Button4.Text = "O" And Button7.Text = cor Or
+                Button2.Text = "O" And Button5.Text = "O" And Button8.Text = cor Or
+                Button3.Text = "O" And Button6.Text = "O" And Button9.Text = cor Or
+                Button1.Text = "O" And Button5.Text = "O" And Button9.Text = cor Or
+                Button3.Text = "O" And Button5.Text = "O" And Button7.Text = cor)
 
 
     End Function
 
     Public Function ComputerturnO()
+
+
 
         ' array of all the button
         Dim But As Button() = {Button1, Button2, Button3, Button4, Button5, Button6, Button7, Button8, Button9}
@@ -661,13 +664,13 @@
     '  FUNCTION TO CHECK IF SHOME ONE IS  WINS
     Public Sub Checkforwin()
         If Button1.Text = "X" And Button2.Text = "X" And Button3.Text = "X" Or
-           Button4.Text = "X" And Button5.Text = "X" And Button6.Text = "X" Or
-           Button7.Text = "X" And Button8.Text = "X" And Button9.Text = "X" Or
-           Button1.Text = "X" And Button4.Text = "X" And Button7.Text = "X" Or
-           Button2.Text = "X" And Button5.Text = "X" And Button8.Text = "X" Or
-           Button3.Text = "X" And Button6.Text = "X" And Button9.Text = "X" Or
-           Button1.Text = "X" And Button5.Text = "X" And Button9.Text = "X" Or
-           Button3.Text = "X" And Button5.Text = "X" And Button7.Text = "X" Then
+               Button4.Text = "X" And Button5.Text = "X" And Button6.Text = "X" Or
+               Button7.Text = "X" And Button8.Text = "X" And Button9.Text = "X" Or
+               Button1.Text = "X" And Button4.Text = "X" And Button7.Text = "X" Or
+               Button2.Text = "X" And Button5.Text = "X" And Button8.Text = "X" Or
+               Button3.Text = "X" And Button6.Text = "X" And Button9.Text = "X" Or
+               Button1.Text = "X" And Button5.Text = "X" And Button9.Text = "X" Or
+               Button3.Text = "X" And Button5.Text = "X" And Button7.Text = "X" Then
             Resetbutton()
 
             If XPLAYER1.Checked = True Then
@@ -684,13 +687,13 @@
         End If
 
         If Button1.Text = "O" And Button2.Text = "O" And Button3.Text = "O" Or
-           Button4.Text = "O" And Button5.Text = "O" And Button6.Text = "O" Or
-           Button7.Text = "O" And Button8.Text = "O" And Button9.Text = "O" Or
-           Button1.Text = "O" And Button4.Text = "O" And Button7.Text = "O" Or
-           Button2.Text = "O" And Button5.Text = "O" And Button8.Text = "O" Or
-           Button3.Text = "O" And Button6.Text = "O" And Button9.Text = "O" Or
-           Button1.Text = "O" And Button5.Text = "O" And Button9.Text = "O" Or
-           Button3.Text = "O" And Button5.Text = "O" And Button7.Text = "O" Then
+               Button4.Text = "O" And Button5.Text = "O" And Button6.Text = "O" Or
+               Button7.Text = "O" And Button8.Text = "O" And Button9.Text = "O" Or
+               Button1.Text = "O" And Button4.Text = "O" And Button7.Text = "O" Or
+               Button2.Text = "O" And Button5.Text = "O" And Button8.Text = "O" Or
+               Button3.Text = "O" And Button6.Text = "O" And Button9.Text = "O" Or
+               Button1.Text = "O" And Button5.Text = "O" And Button9.Text = "O" Or
+               Button3.Text = "O" And Button5.Text = "O" And Button7.Text = "O" Then
 
 
             Resetbutton()
@@ -713,14 +716,14 @@
         End If
 
         If Button1.Text <> "" And
-        Button2.Text <> "" And
-        Button3.Text <> "" And
-        Button4.Text <> "" And
-        Button5.Text <> "" And
-        Button6.Text <> "" And
-        Button7.Text <> "" And
-        Button8.Text <> "" And
-        Button9.Text <> "" Then
+            Button2.Text <> "" And
+            Button3.Text <> "" And
+            Button4.Text <> "" And
+            Button5.Text <> "" And
+            Button6.Text <> "" And
+            Button7.Text <> "" And
+            Button8.Text <> "" And
+            Button9.Text <> "" Then
 
 
             Dim player2name As String = Label4.Text
@@ -734,7 +737,7 @@
 
     End Sub
 
-    Private Sub tiktak_VisibleChanged(sender As Object, e As EventArgs) Handles tiktak.VisibleChanged
+    Private Sub Tiktak_VisibleChanged(sender As Object, e As EventArgs) Handles tiktak.VisibleChanged
 
         If TextBox1.Text IsNot "" Then
             Label4.Text = TextBox1.Text

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "tick tak toe part 2", "tick tak toe part 2\tick tak toe part 2.vbproj", "{717A4837-EF22-4204-BA3C-8C17AA6EE265}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "TIck Tak Toe pc", "tick tak toe part 2\TIck Tak Toe pc.vbproj", "{717A4837-EF22-4204-BA3C-8C17AA6EE265}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

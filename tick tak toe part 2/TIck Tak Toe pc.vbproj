@@ -7,6 +7,12 @@
     <StartupObject>Sub Main</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
+    <ApplicationIcon>tic-tac-toe.ico</ApplicationIcon>
+    <PackageId>tick tak toe VB.net pc</PackageId>
+    <Company>Nishchey</Company>
+    <Authors>Nishchey</Authors>
+    <Product>tick tak toe  game</Product>
+    <Copyright>copy right if nishchey khajuria</Copyright>
   </PropertyGroup>
 
   <ItemGroup>

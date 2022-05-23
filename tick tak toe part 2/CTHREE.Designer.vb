@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class _4_tile_programs
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,23 +20,10 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()>
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.exit1 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Startm = New System.Windows.Forms.Panel()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Startc = New System.Windows.Forms.Button()
-        Me.OPLAYER1 = New System.Windows.Forms.CheckBox()
-        Me.XPLAYER1 = New System.Windows.Forms.CheckBox()
-        Me.MAIN = New System.Windows.Forms.Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.PlayM = New System.Windows.Forms.Button()
-        Me.PlayC = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.tiktak = New System.Windows.Forms.Panel()
         Me.Score2 = New System.Windows.Forms.Label()
         Me.Score1 = New System.Windows.Forms.Label()
@@ -55,153 +42,31 @@ Partial Class Form1
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.PlayM = New System.Windows.Forms.Button()
+        Me.PlayC = New System.Windows.Forms.Button()
+        Me.MAIN = New System.Windows.Forms.Panel()
+        Me.OPLAYER1 = New System.Windows.Forms.CheckBox()
+        Me.XPLAYER1 = New System.Windows.Forms.CheckBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.exit1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Startc = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Startm = New System.Windows.Forms.Panel()
+        Me.tiktak.SuspendLayout()
+        Me.MAIN.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Startm.SuspendLayout()
-        Me.MAIN.SuspendLayout()
-        Me.tiktak.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Panel1
+        'Timer1
         '
-        Me.Panel1.Controls.Add(Me.exit1)
-        Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.Button13)
-        Me.Panel1.Controls.Add(Me.Button12)
-        Me.Panel1.Location = New System.Drawing.Point(5, 6)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1103, 125)
-        Me.Panel1.TabIndex = 0
-        '
-        'exit1
-        '
-        Me.exit1.BackColor = System.Drawing.Color.Crimson
-        Me.exit1.Font = New System.Drawing.Font("Segoe UI", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.exit1.Location = New System.Drawing.Point(966, 23)
-        Me.exit1.Name = "exit1"
-        Me.exit1.Size = New System.Drawing.Size(116, 70)
-        Me.exit1.TabIndex = 3
-        Me.exit1.Text = "EXIT"
-        Me.exit1.UseVisualStyleBackColor = False
-        '
-        'Button13
-        '
-        Me.Button13.Image = Global.tick_tak_toe_part_2.My.Resources.Resources.pngwing_com__3_
-        Me.Button13.Location = New System.Drawing.Point(51, 17)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(94, 78)
-        Me.Button13.TabIndex = 1
-        Me.Button13.UseVisualStyleBackColor = True
-        '
-        'Button12
-        '
-        Me.Button12.Image = Global.tick_tak_toe_part_2.My.Resources.Resources.pngwing_com__2_
-        Me.Button12.Location = New System.Drawing.Point(51, 19)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(94, 74)
-        Me.Button12.TabIndex = 0
-        Me.Button12.UseVisualStyleBackColor = True
-        '
-        'Startm
-        '
-        Me.Startm.Controls.Add(Me.Label3)
-        Me.Startm.Controls.Add(Me.TextBox1)
-        Me.Startm.Controls.Add(Me.Startc)
-        Me.Startm.Controls.Add(Me.OPLAYER1)
-        Me.Startm.Controls.Add(Me.XPLAYER1)
-        Me.Startm.Location = New System.Drawing.Point(143, 165)
-        Me.Startm.Name = "Startm"
-        Me.Startm.Size = New System.Drawing.Size(920, 223)
-        Me.Startm.TabIndex = 2
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(72, 62)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(279, 38)
-        Me.Label3.TabIndex = 4
-        Me.Label3.Text = "Name of the Player "
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(368, 73)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(200, 27)
-        Me.TextBox1.TabIndex = 3
-        '
-        'Startc
-        '
-        Me.Startc.Location = New System.Drawing.Point(357, 157)
-        Me.Startc.Name = "Startc"
-        Me.Startc.Size = New System.Drawing.Size(211, 39)
-        Me.Startc.TabIndex = 2
-        Me.Startc.Text = "START"
-        Me.Startc.UseVisualStyleBackColor = True
-        '
-        'OPLAYER1
-        '
-        Me.OPLAYER1.AutoSize = True
-        Me.OPLAYER1.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.OPLAYER1.Location = New System.Drawing.Point(657, 71)
-        Me.OPLAYER1.Name = "OPLAYER1"
-        Me.OPLAYER1.Size = New System.Drawing.Size(53, 35)
-        Me.OPLAYER1.TabIndex = 1
-        Me.OPLAYER1.Text = "O"
-        Me.OPLAYER1.UseVisualStyleBackColor = True
-        '
-        'XPLAYER1
-        '
-        Me.XPLAYER1.AutoSize = True
-        Me.XPLAYER1.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.XPLAYER1.Location = New System.Drawing.Point(600, 71)
-        Me.XPLAYER1.Name = "XPLAYER1"
-        Me.XPLAYER1.Size = New System.Drawing.Size(51, 35)
-        Me.XPLAYER1.TabIndex = 0
-        Me.XPLAYER1.Text = "X"
-        Me.XPLAYER1.UseVisualStyleBackColor = True
-        '
-        'MAIN
-        '
-        Me.MAIN.Controls.Add(Me.Label2)
-        Me.MAIN.Controls.Add(Me.PlayM)
-        Me.MAIN.Controls.Add(Me.PlayC)
-        Me.MAIN.Location = New System.Drawing.Point(159, 137)
-        Me.MAIN.Name = "MAIN"
-        Me.MAIN.Size = New System.Drawing.Size(819, 254)
-        Me.MAIN.TabIndex = 2
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(21, 32)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(742, 54)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Want to play Tick Tak Toe game with ?"
-        '
-        'PlayM
-        '
-        Me.PlayM.Font = New System.Drawing.Font("Bell MT", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.PlayM.Location = New System.Drawing.Point(259, 182)
-        Me.PlayM.Name = "PlayM"
-        Me.PlayM.Size = New System.Drawing.Size(276, 53)
-        Me.PlayM.TabIndex = 1
-        Me.PlayM.Text = "Multiplayer"
-        Me.PlayM.UseVisualStyleBackColor = True
-        '
-        'PlayC
-        '
-        Me.PlayC.Font = New System.Drawing.Font("Bell MT", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.PlayC.Location = New System.Drawing.Point(259, 113)
-        Me.PlayC.Name = "PlayC"
-        Me.PlayC.Size = New System.Drawing.Size(277, 53)
-        Me.PlayC.TabIndex = 0
-        Me.PlayC.Text = "Computer"
-        Me.PlayC.UseVisualStyleBackColor = True
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 500
         '
         'tiktak
         '
@@ -222,10 +87,10 @@ Partial Class Form1
         Me.tiktak.Controls.Add(Me.Button3)
         Me.tiktak.Controls.Add(Me.Button2)
         Me.tiktak.Controls.Add(Me.Button1)
-        Me.tiktak.Location = New System.Drawing.Point(8, 184)
+        Me.tiktak.Location = New System.Drawing.Point(15, 190)
         Me.tiktak.Name = "tiktak"
         Me.tiktak.Size = New System.Drawing.Size(1100, 624)
-        Me.tiktak.TabIndex = 1
+        Me.tiktak.TabIndex = 4
         '
         'Score2
         '
@@ -377,10 +242,89 @@ Partial Class Form1
         Me.Button1.TabIndex = 0
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Timer1
+        'Label2
         '
-        Me.Timer1.Enabled = True
-        Me.Timer1.Interval = 1
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label2.Location = New System.Drawing.Point(21, 32)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(742, 54)
+        Me.Label2.TabIndex = 2
+        Me.Label2.Text = "Want to play Tick Tak Toe game with ?"
+        '
+        'PlayM
+        '
+        Me.PlayM.Font = New System.Drawing.Font("Bell MT", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.PlayM.Location = New System.Drawing.Point(259, 182)
+        Me.PlayM.Name = "PlayM"
+        Me.PlayM.Size = New System.Drawing.Size(276, 53)
+        Me.PlayM.TabIndex = 1
+        Me.PlayM.Text = "Multiplayer"
+        Me.PlayM.UseVisualStyleBackColor = True
+        '
+        'PlayC
+        '
+        Me.PlayC.Font = New System.Drawing.Font("Bell MT", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.PlayC.Location = New System.Drawing.Point(259, 113)
+        Me.PlayC.Name = "PlayC"
+        Me.PlayC.Size = New System.Drawing.Size(277, 53)
+        Me.PlayC.TabIndex = 0
+        Me.PlayC.Text = "Computer"
+        Me.PlayC.UseVisualStyleBackColor = True
+        '
+        'MAIN
+        '
+        Me.MAIN.Controls.Add(Me.Label2)
+        Me.MAIN.Controls.Add(Me.PlayM)
+        Me.MAIN.Controls.Add(Me.PlayC)
+        Me.MAIN.Location = New System.Drawing.Point(166, 143)
+        Me.MAIN.Name = "MAIN"
+        Me.MAIN.Size = New System.Drawing.Size(819, 254)
+        Me.MAIN.TabIndex = 5
+        '
+        'OPLAYER1
+        '
+        Me.OPLAYER1.AutoSize = True
+        Me.OPLAYER1.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.OPLAYER1.Location = New System.Drawing.Point(657, 71)
+        Me.OPLAYER1.Name = "OPLAYER1"
+        Me.OPLAYER1.Size = New System.Drawing.Size(53, 35)
+        Me.OPLAYER1.TabIndex = 1
+        Me.OPLAYER1.Text = "O"
+        Me.OPLAYER1.UseVisualStyleBackColor = True
+        '
+        'XPLAYER1
+        '
+        Me.XPLAYER1.AutoSize = True
+        Me.XPLAYER1.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.XPLAYER1.Location = New System.Drawing.Point(600, 71)
+        Me.XPLAYER1.Name = "XPLAYER1"
+        Me.XPLAYER1.Size = New System.Drawing.Size(51, 35)
+        Me.XPLAYER1.TabIndex = 0
+        Me.XPLAYER1.Text = "X"
+        Me.XPLAYER1.UseVisualStyleBackColor = True
+        '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.exit1)
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.Button13)
+        Me.Panel1.Controls.Add(Me.Button12)
+        Me.Panel1.Location = New System.Drawing.Point(12, 12)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(1103, 125)
+        Me.Panel1.TabIndex = 3
+        '
+        'exit1
+        '
+        Me.exit1.BackColor = System.Drawing.Color.Crimson
+        Me.exit1.Font = New System.Drawing.Font("Segoe UI", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.exit1.Location = New System.Drawing.Point(966, 23)
+        Me.exit1.Name = "exit1"
+        Me.exit1.Size = New System.Drawing.Size(116, 70)
+        Me.exit1.TabIndex = 3
+        Me.exit1.Text = "EXIT"
+        Me.exit1.UseVisualStyleBackColor = False
         '
         'Label1
         '
@@ -392,43 +336,88 @@ Partial Class Form1
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "TIK TAK TOE"
         '
-        'Form1
+        'Button13
+        '
+        Me.Button13.Image = Global.tick_tak_toe_part_2.My.Resources.Resources.pngwing_com__3_
+        Me.Button13.Location = New System.Drawing.Point(51, 17)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(94, 78)
+        Me.Button13.TabIndex = 1
+        Me.Button13.UseVisualStyleBackColor = True
+        '
+        'Button12
+        '
+        Me.Button12.Image = Global.tick_tak_toe_part_2.My.Resources.Resources.pngwing_com__2_
+        Me.Button12.Location = New System.Drawing.Point(51, 19)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(94, 74)
+        Me.Button12.TabIndex = 0
+        Me.Button12.UseVisualStyleBackColor = True
+        '
+        'Startc
+        '
+        Me.Startc.Location = New System.Drawing.Point(357, 157)
+        Me.Startc.Name = "Startc"
+        Me.Startc.Size = New System.Drawing.Size(211, 39)
+        Me.Startc.TabIndex = 2
+        Me.Startc.Text = "START"
+        Me.Startc.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(368, 73)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(200, 27)
+        Me.TextBox1.TabIndex = 3
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label3.Location = New System.Drawing.Point(72, 62)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(279, 38)
+        Me.Label3.TabIndex = 4
+        Me.Label3.Text = "Name of the Player "
+        '
+        'Startm
+        '
+        Me.Startm.Controls.Add(Me.Label3)
+        Me.Startm.Controls.Add(Me.TextBox1)
+        Me.Startm.Controls.Add(Me.Startc)
+        Me.Startm.Controls.Add(Me.OPLAYER1)
+        Me.Startm.Controls.Add(Me.XPLAYER1)
+        Me.Startm.Location = New System.Drawing.Point(150, 171)
+        Me.Startm.Name = "Startm"
+        Me.Startm.Size = New System.Drawing.Size(920, 223)
+        Me.Startm.TabIndex = 6
+        '
+        '_4_tile_programs
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.SkyBlue
-        Me.ClientSize = New System.Drawing.Size(1120, 836)
-        Me.Controls.Add(Me.Startm)
+        Me.ClientSize = New System.Drawing.Size(1353, 893)
         Me.Controls.Add(Me.MAIN)
         Me.Controls.Add(Me.tiktak)
         Me.Controls.Add(Me.Panel1)
-        Me.Name = "Form1"
+        Me.Controls.Add(Me.Startm)
+        Me.Name = "_4_tile_programs"
+        Me.Text = "_4_tile_programs"
+        Me.tiktak.ResumeLayout(False)
+        Me.tiktak.PerformLayout()
+        Me.MAIN.ResumeLayout(False)
+        Me.MAIN.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.Startm.ResumeLayout(False)
         Me.Startm.PerformLayout()
-        Me.MAIN.ResumeLayout(False)
-        Me.MAIN.PerformLayout()
-        Me.tiktak.ResumeLayout(False)
-        Me.tiktak.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents exit1 As Button
+    Friend WithEvents Timer1 As Timer
     Friend WithEvents tiktak As Panel
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
+    Friend WithEvents Score2 As Label
     Friend WithEvents Score1 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
@@ -436,18 +425,28 @@ Partial Class Form1
     Friend WithEvents Button11 As Button
     Friend WithEvents OTURN As Label
     Friend WithEvents XTURN As Label
-    Friend WithEvents Score2 As Label
-    Friend WithEvents Startm As Panel
-    Friend WithEvents XPLAYER1 As CheckBox
-    Friend WithEvents Startc As Button
-    Friend WithEvents OPLAYER1 As CheckBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents MAIN As Panel
+    Friend WithEvents Button7 As Button
+    Friend WithEvents Button8 As Button
+    Friend WithEvents Button9 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Label2 As Label
     Friend WithEvents PlayM As Button
     Friend WithEvents PlayC As Button
-    Friend WithEvents Timer1 As Timer
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
+    Friend WithEvents MAIN As Panel
+    Friend WithEvents OPLAYER1 As CheckBox
+    Friend WithEvents XPLAYER1 As CheckBox
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents exit1 As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents Button13 As Button
+    Friend WithEvents Button12 As Button
+    Friend WithEvents Startc As Button
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Startm As Panel
 End Class
-
