@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Mainpage
+Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -26,8 +26,6 @@ Partial Class Mainpage
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.exit1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
         Me.MAIN = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.PlayM = New System.Windows.Forms.Button()
@@ -51,8 +49,6 @@ Partial Class Mainpage
         '
         Me.Panel1.Controls.Add(Me.exit1)
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.Button13)
-        Me.Panel1.Controls.Add(Me.Button12)
         Me.Panel1.Location = New System.Drawing.Point(5, 6)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1103, 125)
@@ -78,24 +74,6 @@ Partial Class Mainpage
         Me.Label1.Size = New System.Drawing.Size(398, 67)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "TIK TAK TOE"
-        '
-        'Button13
-        '
-        Me.Button13.Image = Global.tick_tak_toe_part_2.My.Resources.Resources.pngwing_com__3_
-        Me.Button13.Location = New System.Drawing.Point(51, 17)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(94, 78)
-        Me.Button13.TabIndex = 1
-        Me.Button13.UseVisualStyleBackColor = True
-        '
-        'Button12
-        '
-        Me.Button12.Image = Global.tick_tak_toe_part_2.My.Resources.Resources.pngwing_com__2_
-        Me.Button12.Location = New System.Drawing.Point(51, 19)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(94, 74)
-        Me.Button12.TabIndex = 0
-        Me.Button12.UseVisualStyleBackColor = True
         '
         'MAIN
         '
@@ -232,8 +210,8 @@ Partial Class Mainpage
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Tan
         Me.ClientSize = New System.Drawing.Size(1120, 586)
-        Me.Controls.Add(Me.ComputerT)
         Me.Controls.Add(Me.MULTIPLAYERT)
+        Me.Controls.Add(Me.ComputerT)
         Me.Controls.Add(Me.MAIN)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "Mainpage"
@@ -251,8 +229,6 @@ Partial Class Mainpage
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button12 As Button
     Friend WithEvents exit1 As Button
     Friend WithEvents MAIN As Panel
     Friend WithEvents PlayM As Button

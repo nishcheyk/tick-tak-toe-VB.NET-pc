@@ -2,6 +2,7 @@
 
 Public Class MTHREE
     Private Const V As Boolean = False
+    Private Const V1 As Boolean = True
     'EXIT BUTTON 
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles exit1.Click
         Close()
@@ -46,7 +47,6 @@ Public Class MTHREE
         tiktaktoe.Hide()
         Start1.Show()
 
-        My.Computer.Audio.Play("C:\Users\ACER\Music\Minoru 187 - Gaming Background Music (HD).wav.wav")
 
 
     End Sub
@@ -268,22 +268,25 @@ Public Class MTHREE
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         If Button1.Text = "" Then
-            If XTURN.Visible = True Then
+            If XTURN.Visible = V1 Then
 
                 Button1.Text = "X"
-                Button1.BackColor = Color.CornflowerBlue
+                Button1.BackColor = Color.Beige
                 Button1.ForeColor = Color.Black
                 XTURN.Visible = V
-                OTURN.Visible = True
+                OTURN.Visible = V1
 
 
-            ElseIf OTURN.Visible = True Then
+
+            ElseIf OTURN.Visible = V1 Then
 
                 Button1.Text = "O"
-                Button1.BackColor = Color.SteelBlue
+                Button1.BackColor = Color.BurlyWood
                 Button1.ForeColor = Color.White
                 OTURN.Visible = V
-                XTURN.Visible = True
+                XTURN.Visible = V1
+
+
 
             End If
         End If
@@ -295,22 +298,22 @@ Public Class MTHREE
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
         If Button2.Text = "" Then
-            If XTURN.Visible = True Then
+            If XTURN.Visible = V1 Then
 
                 Button2.Text = "X"
-                Button2.BackColor = Color.CornflowerBlue
+                Button2.BackColor = Color.Beige
                 Button2.ForeColor = Color.Black
-                XTURN.Visible = V
-                OTURN.Visible = True
+                XTURN.Visible = False
+                OTURN.Visible = V1
 
 
-            ElseIf OTURN.Visible = True Then
+            ElseIf OTURN.Visible = V1 Then
 
                 Button2.Text = "O"
-                Button2.BackColor = Color.SteelBlue
+                Button2.BackColor = Color.BurlyWood
                 Button2.ForeColor = Color.White
-                OTURN.Visible = V
-                XTURN.Visible = True
+                OTURN.Visible = False
+                XTURN.Visible = V1
 
             End If
             Checkforwin()
@@ -322,22 +325,23 @@ Public Class MTHREE
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
 
         If Button3.Text = "" Then
-            If XTURN.Visible = True Then
+            If XTURN.Visible = V1 Then
 
                 Button3.Text = "X"
-                Button3.BackColor = Color.CornflowerBlue
+                Button3.BackColor = Color.Beige
                 Button3.ForeColor = Color.Black
-                XTURN.Visible = V
-                OTURN.Visible = True
+                XTURN.Visible = False
+                OTURN.Visible = V1
 
-
-            ElseIf OTURN.Visible = True Then
+            ElseIf OTURN.Visible = V1 Then
 
                 Button3.Text = "O"
-                Button3.BackColor = Color.SteelBlue
+                Button3.BackColor = Color.BurlyWood
                 Button3.ForeColor = Color.White
-                OTURN.Visible = V
-                XTURN.Visible = True
+                OTURN.Visible = False
+                XTURN.Visible = V1
+
+
 
             End If
             Checkforwin()
@@ -348,22 +352,22 @@ Public Class MTHREE
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
 
         If Button4.Text = "" Then
-            If XTURN.Visible = True Then
+            If XTURN.Visible = V1 Then
 
                 Button4.Text = "X"
-                Button4.BackColor = Color.CornflowerBlue
+                Button4.BackColor = Color.Beige
                 Button4.ForeColor = Color.Black
-                XTURN.Visible = V
-                OTURN.Visible = True
+                XTURN.Visible = False
+                OTURN.Visible = V1
 
-
-            ElseIf OTURN.Visible = True Then
+            ElseIf OTURN.Visible = V1 Then
 
                 Button4.Text = "O"
-                Button4.BackColor = Color.SteelBlue
+                Button4.BackColor = Color.BurlyWood
                 Button4.ForeColor = Color.White
-                OTURN.Visible = V
-                XTURN.Visible = True
+                OTURN.Visible = False
+                XTURN.Visible = V1
+
 
             End If
         End If
@@ -374,22 +378,22 @@ Public Class MTHREE
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
 
         If Button5.Text = "" Then
-            If XTURN.Visible = True Then
+            If XTURN.Visible = V1 Then
 
                 Button5.Text = "X"
-                Button5.BackColor = Color.CornflowerBlue
+                Button5.BackColor = Color.Beige
                 Button5.ForeColor = Color.Black
-                XTURN.Visible = V
-                OTURN.Visible = True
+                XTURN.Visible = False
+                OTURN.Visible = V1
 
-
-            ElseIf OTURN.Visible = True Then
+            ElseIf OTURN.Visible = V1 Then
 
                 Button5.Text = "O"
-                Button5.BackColor = Color.SteelBlue
+                Button5.BackColor = Color.BurlyWood
                 Button5.ForeColor = Color.White
-                OTURN.Visible = V
-                XTURN.Visible = True
+                OTURN.Visible = False
+                XTURN.Visible = V1
+
 
             End If
         End If
@@ -401,23 +405,21 @@ Public Class MTHREE
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
 
         If Button6.Text = "" Then
-            If XTURN.Visible = True Then
+            If XTURN.Visible = V1 Then
 
                 Button6.Text = "X"
-                Button6.BackColor = Color.CornflowerBlue
+                Button6.BackColor = Color.Beige
                 Button6.ForeColor = Color.Black
-                XTURN.Visible = V
-                OTURN.Visible = True
+                XTURN.Visible = False
+                OTURN.Visible = V1
 
-
-
-            ElseIf OTURN.Visible = True Then
+            ElseIf OTURN.Visible = V1 Then
 
                 Button6.Text = "O"
-                Button6.BackColor = Color.SteelBlue
+                Button6.BackColor = Color.BurlyWood
                 Button6.ForeColor = Color.White
-                OTURN.Visible = V
-                XTURN.Visible = True
+                OTURN.Visible = False
+                XTURN.Visible = V1
 
             End If
         End If
@@ -429,23 +431,22 @@ Public Class MTHREE
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
 
         If Button7.Text = "" Then
-            If XTURN.Visible = True Then
+            If XTURN.Visible = V1 Then
 
                 Button7.Text = "X"
-                Button7.BackColor = Color.CornflowerBlue
+                Button7.BackColor = Color.Beige
                 Button7.ForeColor = Color.Black
                 XTURN.Visible = V
-                OTURN.Visible = True
+                OTURN.Visible = V1
 
-
-
-            ElseIf OTURN.Visible = True Then
+            ElseIf OTURN.Visible = V1 Then
 
                 Button7.Text = "O"
-                Button7.BackColor = Color.SteelBlue
+                Button7.BackColor = Color.BurlyWood
                 Button7.ForeColor = Color.White
                 OTURN.Visible = V
-                XTURN.Visible = True
+                XTURN.Visible = V1
+
 
             End If
         End If
@@ -457,24 +458,23 @@ Public Class MTHREE
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
 
         If Button8.Text = "" Then
-            If XTURN.Visible = True Then
+            If XTURN.Visible = V1 Then
 
                 Button8.Text = "X"
-                Button8.BackColor = Color.CornflowerBlue
+                Button8.BackColor = Color.Beige
                 Button8.ForeColor = Color.Black
                 XTURN.Visible = V
-                OTURN.Visible = True
+                OTURN.Visible = V1
 
-
-
-
-            ElseIf OTURN.Visible = True Then
+            ElseIf OTURN.Visible = V1 Then
 
                 Button8.Text = "O"
-                Button8.BackColor = Color.SteelBlue
+                Button8.BackColor = Color.BurlyWood
                 Button8.ForeColor = Color.White
+
                 OTURN.Visible = V
-                XTURN.Visible = True
+                XTURN.Visible = V1
+
 
             End If
         End If
@@ -486,28 +486,28 @@ Public Class MTHREE
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
 
         If Button9.Text = "" Then
-            If XTURN.Visible = True Then
+            If XTURN.Visible = V1 Then
 
                 Button9.Text = "X"
-                Button9.BackColor = Color.CornflowerBlue
+                Button9.BackColor = Color.Beige
                 Button9.ForeColor = Color.Black
                 XTURN.Visible = V
-                OTURN.Visible = True
+                OTURN.Visible = V1
 
-
-
-            ElseIf OTURN.Visible = True Then
+            ElseIf OTURN.Visible = V1 Then
 
                 Button9.Text = "O"
-                Button9.BackColor = Color.SteelBlue
+                Button9.BackColor = Color.BurlyWood
                 Button9.ForeColor = Color.White
                 OTURN.Visible = V
-                XTURN.Visible = True
+                XTURN.Visible = V1
+
+
+
             End If
+
         End If
-
         Checkforwin()
-
     End Sub
 
     Private Sub Button10_Click_1(sender As Object, e As EventArgs) Handles Button10.Click
@@ -518,7 +518,7 @@ Public Class MTHREE
 
     ' WHEN NEW GAME IS CLICK  EVERY THING RESET 
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
-        Mainpage.Show()
+        Form1.Show()
         Me.Hide()
         tiktaktoe.Hide()
         TextBox1.Text = ""
@@ -533,21 +533,6 @@ Public Class MTHREE
     End Sub
 
 
-    ' TO START AND STOP THE MUSIC 
-    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
-        My.Computer.Audio.Play("C:\Users\ACER\Music\Minoru 187 - Gaming Background Music (HD).wav.wav")
-        Button13.Show()
-        Button12.Hide()
-
-
-    End Sub
-
-    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
-        My.Computer.Audio.Stop()
-        Button12.Show()
-        Button13.Hide()
-
-    End Sub
 
 
 

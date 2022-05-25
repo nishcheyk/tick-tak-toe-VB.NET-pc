@@ -97,25 +97,14 @@
 
 
     End Sub
-    Private Sub exit1_Click(sender As Object, e As EventArgs) Handles exit1.Click
+    Private Sub Exit1_Click(sender As Object, e As EventArgs) Handles exit1.Click
         Me.Close()
     End Sub
 
-    Private Sub Button1333_Click(sender As Object, e As EventArgs) Handles Button1333.Click
-        My.Computer.Audio.Stop()
-        Button133.Show()
-        Button1333.Hide()
-    End Sub
 
-    Private Sub Button133_Click(sender As Object, e As EventArgs) Handles Button133.Click
-        My.Computer.Audio.Play("C:\Users\ACER\Music\Minoru 187 - Gaming Background Music (HD).wav.wav")
-        Button1333.Show()
-        Button133.Hide()
 
-    End Sub
-
-    Private Sub newgame_Click(sender As Object, e As PaintEventArgs) Handles newgame.Click
-        Mainpage.Show()
+    Private Sub Newgame_Click(sender As Object, e As PaintEventArgs) Handles newgame.Click
+        Form1.Show()
         Me.Hide()
     End Sub
 
@@ -128,7 +117,6 @@
         tiktaktoe.Hide()
         Start1.Show()
 
-        My.Computer.Audio.Play("C:\Users\ACER\Music\Minoru 187 - Gaming Background Music (HD).wav.wav")
 
 
     End Sub
@@ -141,7 +129,7 @@
                 Button1.Text = "X"
                 Button1.BackColor = Color.Beige
                 Button1.ForeColor = Color.Black
-                XTURN.Visible = False
+                XTURN.Visible = V
                 OTURN.Visible = V1
 
 
@@ -151,7 +139,7 @@
                 Button1.Text = "O"
                 Button1.BackColor = Color.BurlyWood
                 Button1.ForeColor = Color.White
-                OTURN.Visible = False
+                OTURN.Visible = V
                 XTURN.Visible = V1
 
 
@@ -304,7 +292,7 @@
                 Button7.Text = "X"
                 Button7.BackColor = Color.Beige
                 Button7.ForeColor = Color.Black
-                XTURN.Visible = False
+                XTURN.Visible = V
                 OTURN.Visible = V1
 
             ElseIf OTURN.Visible = V1 Then
@@ -312,7 +300,7 @@
                 Button7.Text = "O"
                 Button7.BackColor = Color.BurlyWood
                 Button7.ForeColor = Color.White
-                OTURN.Visible = False
+                OTURN.Visible = V
                 XTURN.Visible = V1
 
 
@@ -331,7 +319,7 @@
                 Button8.Text = "X"
                 Button8.BackColor = Color.Beige
                 Button8.ForeColor = Color.Black
-                XTURN.Visible = False
+                XTURN.Visible = V
                 OTURN.Visible = V1
 
             ElseIf OTURN.Visible = V1 Then
@@ -340,7 +328,7 @@
                 Button8.BackColor = Color.BurlyWood
                 Button8.ForeColor = Color.White
 
-                OTURN.Visible = False
+                OTURN.Visible = V
                 XTURN.Visible = V1
 
 
@@ -359,7 +347,7 @@
                 Button9.Text = "X"
                 Button9.BackColor = Color.Beige
                 Button9.ForeColor = Color.Black
-                XTURN.Visible = False
+                XTURN.Visible = V
                 OTURN.Visible = V1
 
             ElseIf OTURN.Visible = V1 Then
@@ -367,14 +355,14 @@
                 Button9.Text = "O"
                 Button9.BackColor = Color.BurlyWood
                 Button9.ForeColor = Color.White
-                OTURN.Visible = False
+                OTURN.Visible = V
                 XTURN.Visible = V1
 
 
 
             End If
         End If
-
+        Checkforwin()
     End Sub
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
 
@@ -558,7 +546,7 @@
 
             End If
         End If
-
+        Checkforwin()
     End Sub
 
 

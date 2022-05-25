@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class MFOUR
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class MFOUR
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.OTURN = New System.Windows.Forms.Label()
         Me.XTURN = New System.Windows.Forms.Label()
@@ -62,8 +62,6 @@ Partial Class MFOUR
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button1333 = New System.Windows.Forms.Button()
-        Me.Button133 = New System.Windows.Forms.Button()
         Me.Start1.SuspendLayout()
         Me.tiktaktoe.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -71,84 +69,85 @@ Partial Class MFOUR
         '
         'OTURN
         '
-        Me.OTURN.AutoSize = V1
         Me.OTURN.Font = New System.Drawing.Font("Microsoft Sans Serif", 19.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.OTURN.Location = New System.Drawing.Point(760, 270)
         Me.OTURN.Name = "OTURN"
         Me.OTURN.Size = New System.Drawing.Size(286, 37)
         Me.OTURN.TabIndex = 17
         Me.OTURN.Text = "Player 2's turn(O)"
+        Me.OTURN.UseWaitCursor = True
         '
         'XTURN
         '
-        Me.XTURN.AutoSize = V1
         Me.XTURN.Font = New System.Drawing.Font("Microsoft Sans Serif", 19.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.XTURN.Location = New System.Drawing.Point(760, 191)
         Me.XTURN.Name = "XTURN"
         Me.XTURN.Size = New System.Drawing.Size(280, 37)
         Me.XTURN.TabIndex = 16
         Me.XTURN.Text = "Player 1's turn(X)"
+        Me.XTURN.UseWaitCursor = True
         '
         'Score2
         '
-        Me.Score2.AutoSize = V1
         Me.Score2.Font = New System.Drawing.Font("Segoe UI Semibold", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Score2.Location = New System.Drawing.Point(194, 738)
         Me.Score2.Name = "Score2"
         Me.Score2.Size = New System.Drawing.Size(38, 45)
         Me.Score2.TabIndex = 15
         Me.Score2.Text = "0"
+        Me.Score2.UseWaitCursor = True
         '
         'Score1
         '
-        Me.Score1.AutoSize = V1
         Me.Score1.Font = New System.Drawing.Font("Segoe UI Semibold", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Score1.Location = New System.Drawing.Point(194, 680)
         Me.Score1.Name = "Score1"
         Me.Score1.Size = New System.Drawing.Size(38, 45)
         Me.Score1.TabIndex = 14
         Me.Score1.Text = "0"
+        Me.Score1.UseWaitCursor = True
         '
         'Label7
         '
-        Me.Label7.AutoSize = V1
         Me.Label7.Font = New System.Drawing.Font("Segoe UI Semibold", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label7.Location = New System.Drawing.Point(210, 738)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(0, 45)
         Me.Label7.TabIndex = 13
+        Me.Label7.UseWaitCursor = True
         '
         'Label6
         '
-        Me.Label6.AutoSize = V1
         Me.Label6.Font = New System.Drawing.Font("Segoe UI Semibold", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label6.Location = New System.Drawing.Point(210, 680)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(0, 45)
         Me.Label6.TabIndex = 12
+        Me.Label6.UseWaitCursor = True
         '
         'Label5
         '
-        Me.Label5.AutoSize = V1
         Me.Label5.Font = New System.Drawing.Font("Segoe UI Semibold", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label5.Location = New System.Drawing.Point(25, 738)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(139, 45)
         Me.Label5.TabIndex = 11
         Me.Label5.Text = "Player 2"
+        Me.Label5.UseWaitCursor = True
         '
         'Label4
         '
-        Me.Label4.AutoSize = V1
         Me.Label4.Font = New System.Drawing.Font("Segoe UI Semibold", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label4.Location = New System.Drawing.Point(25, 680)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(134, 45)
         Me.Label4.TabIndex = 10
         Me.Label4.Text = "Player 1"
+        Me.Label4.UseWaitCursor = True
         '
         'Start
         '
+        Me.Start.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Start.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Start.Location = New System.Drawing.Point(415, 187)
         Me.Start.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -156,56 +155,43 @@ Partial Class MFOUR
         Me.Start.Size = New System.Drawing.Size(283, 68)
         Me.Start.TabIndex = 8
         Me.Start.Text = "Start"
-        Me.Start.UseVisualStyleBackColor = V1
-        Me.Start.UseWaitCursor = V1
+        Me.Start.UseVisualStyleBackColor = False
         '
         'OPLAYER2
         '
-        Me.OPLAYER2.AutoSize = V1
         Me.OPLAYER2.Location = New System.Drawing.Point(743, 102)
         Me.OPLAYER2.Margin = New System.Windows.Forms.Padding(10)
         Me.OPLAYER2.Name = "OPLAYER2"
         Me.OPLAYER2.Size = New System.Drawing.Size(42, 24)
         Me.OPLAYER2.TabIndex = 7
         Me.OPLAYER2.Text = "O"
-        Me.OPLAYER2.UseVisualStyleBackColor = V1
-        Me.OPLAYER2.UseWaitCursor = V1
         '
         'XPLAYER2
         '
-        Me.XPLAYER2.AutoSize = V1
         Me.XPLAYER2.Location = New System.Drawing.Point(701, 102)
         Me.XPLAYER2.Margin = New System.Windows.Forms.Padding(10)
         Me.XPLAYER2.Name = "XPLAYER2"
         Me.XPLAYER2.Size = New System.Drawing.Size(40, 24)
         Me.XPLAYER2.TabIndex = 6
         Me.XPLAYER2.Text = "X"
-        Me.XPLAYER2.UseVisualStyleBackColor = V1
-        Me.XPLAYER2.UseWaitCursor = V1
         '
         'OPLAYER1
         '
-        Me.OPLAYER1.AutoSize = V1
         Me.OPLAYER1.Location = New System.Drawing.Point(743, 62)
         Me.OPLAYER1.Margin = New System.Windows.Forms.Padding(10)
         Me.OPLAYER1.Name = "OPLAYER1"
         Me.OPLAYER1.Size = New System.Drawing.Size(42, 24)
         Me.OPLAYER1.TabIndex = 5
         Me.OPLAYER1.Text = "O"
-        Me.OPLAYER1.UseVisualStyleBackColor = V1
-        Me.OPLAYER1.UseWaitCursor = V1
         '
         'XPLAYER1
         '
-        Me.XPLAYER1.AutoSize = V1
         Me.XPLAYER1.Location = New System.Drawing.Point(701, 62)
         Me.XPLAYER1.Margin = New System.Windows.Forms.Padding(10)
         Me.XPLAYER1.Name = "XPLAYER1"
         Me.XPLAYER1.Size = New System.Drawing.Size(40, 24)
         Me.XPLAYER1.TabIndex = 4
         Me.XPLAYER1.Text = "X"
-        Me.XPLAYER1.UseVisualStyleBackColor = V1
-        Me.XPLAYER1.UseWaitCursor = V1
         '
         'TextBox2
         '
@@ -215,7 +201,6 @@ Partial Class MFOUR
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(205, 27)
         Me.TextBox2.TabIndex = 3
-        Me.TextBox2.UseWaitCursor = V1
         '
         'TextBox1
         '
@@ -224,29 +209,24 @@ Partial Class MFOUR
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(205, 27)
         Me.TextBox1.TabIndex = 2
-        Me.TextBox1.UseWaitCursor = V1
         '
         'Label3
         '
-        Me.Label3.AutoSize = V1
         Me.Label3.Font = New System.Drawing.Font("Segoe UI Semibold", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label3.Location = New System.Drawing.Point(307, 88)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(139, 45)
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "Player 2"
-        Me.Label3.UseWaitCursor = V1
         '
         'Label2
         '
-        Me.Label2.AutoSize = V1
         Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label2.Location = New System.Drawing.Point(307, 43)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(134, 45)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Player 1"
-        Me.Label2.UseWaitCursor = V1
         '
         'Start1
         '
@@ -259,16 +239,14 @@ Partial Class MFOUR
         Me.Start1.Controls.Add(Me.TextBox1)
         Me.Start1.Controls.Add(Me.Label3)
         Me.Start1.Controls.Add(Me.Label2)
-        Me.Start1.Location = New System.Drawing.Point(12, 355)
+        Me.Start1.Location = New System.Drawing.Point(28, 446)
         Me.Start1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Start1.Name = "Start1"
         Me.Start1.Size = New System.Drawing.Size(1130, 272)
         Me.Start1.TabIndex = 21
-        Me.Start1.UseWaitCursor = V1
         '
         'Label1
         '
-        Me.Label1.AutoSize = V1
         Me.Label1.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Label1.Font = New System.Drawing.Font("Swis721 BT", 50.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -324,24 +302,29 @@ Partial Class MFOUR
         Me.tiktaktoe.Name = "tiktaktoe"
         Me.tiktaktoe.Size = New System.Drawing.Size(1088, 910)
         Me.tiktaktoe.TabIndex = 20
+        Me.tiktaktoe.UseWaitCursor = True
         '
         'REest
         '
+        Me.REest.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.REest.Location = New System.Drawing.Point(855, 745)
         Me.REest.Name = "REest"
         Me.REest.Size = New System.Drawing.Size(202, 60)
         Me.REest.TabIndex = 41
         Me.REest.Text = "RESET"
-        Me.REest.UseVisualStyleBackColor = V1
+        Me.REest.UseVisualStyleBackColor = False
+        Me.REest.UseWaitCursor = True
         '
         'newgame
         '
+        Me.newgame.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.newgame.Location = New System.Drawing.Point(855, 680)
         Me.newgame.Name = "newgame"
         Me.newgame.Size = New System.Drawing.Size(202, 60)
         Me.newgame.TabIndex = 40
         Me.newgame.Text = "NEW GAME"
-        Me.newgame.UseVisualStyleBackColor = V1
+        Me.newgame.UseVisualStyleBackColor = False
+        Me.newgame.UseWaitCursor = True
         '
         'Button1
         '
@@ -352,6 +335,7 @@ Partial Class MFOUR
         Me.Button1.Size = New System.Drawing.Size(153, 142)
         Me.Button1.TabIndex = 39
         Me.Button1.UseVisualStyleBackColor = False
+        Me.Button1.UseWaitCursor = True
         '
         'Button15
         '
@@ -362,6 +346,7 @@ Partial Class MFOUR
         Me.Button15.Size = New System.Drawing.Size(153, 142)
         Me.Button15.TabIndex = 38
         Me.Button15.UseVisualStyleBackColor = False
+        Me.Button15.UseWaitCursor = True
         '
         'Button16
         '
@@ -372,6 +357,7 @@ Partial Class MFOUR
         Me.Button16.Size = New System.Drawing.Size(153, 142)
         Me.Button16.TabIndex = 37
         Me.Button16.UseVisualStyleBackColor = False
+        Me.Button16.UseWaitCursor = True
         '
         'Button2
         '
@@ -382,6 +368,7 @@ Partial Class MFOUR
         Me.Button2.Size = New System.Drawing.Size(153, 142)
         Me.Button2.TabIndex = 36
         Me.Button2.UseVisualStyleBackColor = False
+        Me.Button2.UseWaitCursor = True
         '
         'Button14
         '
@@ -392,6 +379,7 @@ Partial Class MFOUR
         Me.Button14.Size = New System.Drawing.Size(153, 142)
         Me.Button14.TabIndex = 35
         Me.Button14.UseVisualStyleBackColor = False
+        Me.Button14.UseWaitCursor = True
         '
         'Button3
         '
@@ -402,6 +390,7 @@ Partial Class MFOUR
         Me.Button3.Size = New System.Drawing.Size(153, 142)
         Me.Button3.TabIndex = 34
         Me.Button3.UseVisualStyleBackColor = False
+        Me.Button3.UseWaitCursor = True
         '
         'Button4
         '
@@ -412,6 +401,7 @@ Partial Class MFOUR
         Me.Button4.Size = New System.Drawing.Size(153, 142)
         Me.Button4.TabIndex = 33
         Me.Button4.UseVisualStyleBackColor = False
+        Me.Button4.UseWaitCursor = True
         '
         'Button7
         '
@@ -422,6 +412,7 @@ Partial Class MFOUR
         Me.Button7.Size = New System.Drawing.Size(153, 142)
         Me.Button7.TabIndex = 32
         Me.Button7.UseVisualStyleBackColor = False
+        Me.Button7.UseWaitCursor = True
         '
         'Button8
         '
@@ -433,6 +424,7 @@ Partial Class MFOUR
         Me.Button8.Size = New System.Drawing.Size(153, 142)
         Me.Button8.TabIndex = 31
         Me.Button8.UseVisualStyleBackColor = False
+        Me.Button8.UseWaitCursor = True
         '
         'Button9
         '
@@ -443,65 +435,76 @@ Partial Class MFOUR
         Me.Button9.Size = New System.Drawing.Size(153, 142)
         Me.Button9.TabIndex = 30
         Me.Button9.UseVisualStyleBackColor = False
+        Me.Button9.UseWaitCursor = True
         '
         'Button5
         '
+        Me.Button5.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Button5.Font = New System.Drawing.Font("Segoe UI Symbol", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button5.Location = New System.Drawing.Point(38, 173)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(153, 142)
         Me.Button5.TabIndex = 29
-        Me.Button5.UseVisualStyleBackColor = V1
+        Me.Button5.UseVisualStyleBackColor = False
+        Me.Button5.UseWaitCursor = True
         '
         'Button6
         '
+        Me.Button6.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Button6.Font = New System.Drawing.Font("Segoe UI Symbol", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button6.Location = New System.Drawing.Point(197, 173)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(153, 142)
         Me.Button6.TabIndex = 28
-        Me.Button6.UseVisualStyleBackColor = V1
+        Me.Button6.UseVisualStyleBackColor = False
+        Me.Button6.UseWaitCursor = True
         '
         'Button11
         '
+        Me.Button11.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Button11.Font = New System.Drawing.Font("Segoe UI Symbol", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button11.Location = New System.Drawing.Point(356, 321)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(153, 142)
         Me.Button11.TabIndex = 27
-        Me.Button11.UseVisualStyleBackColor = V1
+        Me.Button11.UseVisualStyleBackColor = False
+        Me.Button11.UseWaitCursor = True
         '
         'Button13
         '
+        Me.Button13.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Button13.Font = New System.Drawing.Font("Segoe UI Symbol", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button13.Location = New System.Drawing.Point(38, 469)
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(153, 142)
         Me.Button13.TabIndex = 26
-        Me.Button13.UseVisualStyleBackColor = V1
+        Me.Button13.UseVisualStyleBackColor = False
+        Me.Button13.UseWaitCursor = True
         '
         'Button12
         '
+        Me.Button12.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Button12.Font = New System.Drawing.Font("Segoe UI Symbol", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button12.Location = New System.Drawing.Point(515, 321)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(153, 142)
         Me.Button12.TabIndex = 25
-        Me.Button12.UseVisualStyleBackColor = V1
+        Me.Button12.UseVisualStyleBackColor = False
+        Me.Button12.UseWaitCursor = True
         '
         'Button10
         '
+        Me.Button10.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Button10.Font = New System.Drawing.Font("Segoe UI Symbol", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button10.Location = New System.Drawing.Point(197, 321)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(153, 142)
         Me.Button10.TabIndex = 24
-        Me.Button10.UseVisualStyleBackColor = V1
+        Me.Button10.UseVisualStyleBackColor = False
+        Me.Button10.UseWaitCursor = True
         '
         'Panel1
         '
-        Me.Panel1.Controls.Add(Me.Button1333)
-        Me.Panel1.Controls.Add(Me.Button133)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.exit1)
         Me.Panel1.Location = New System.Drawing.Point(12, 11)
@@ -509,24 +512,6 @@ Partial Class MFOUR
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1184, 149)
         Me.Panel1.TabIndex = 19
-        '
-        'Button1333
-        '
-        Me.Button1333.Image = Global.tick_tak_toe_part_2.My.Resources.Resources.pngwing_com__3_
-        Me.Button1333.Location = New System.Drawing.Point(57, 33)
-        Me.Button1333.Name = "Button1333"
-        Me.Button1333.Size = New System.Drawing.Size(94, 78)
-        Me.Button1333.TabIndex = 13
-        Me.Button1333.UseVisualStyleBackColor = V1
-        '
-        'Button133
-        '
-        Me.Button133.Image = Global.tick_tak_toe_part_2.My.Resources.Resources.pngwing_com__2_
-        Me.Button133.Location = New System.Drawing.Point(57, 33)
-        Me.Button133.Name = "Button133"
-        Me.Button133.Size = New System.Drawing.Size(94, 74)
-        Me.Button133.TabIndex = 12
-        Me.Button133.UseVisualStyleBackColor = V1
         '
         'MFOUR
         '
@@ -542,9 +527,7 @@ Partial Class MFOUR
         Me.Start1.ResumeLayout(False)
         Me.Start1.PerformLayout()
         Me.tiktaktoe.ResumeLayout(False)
-        Me.tiktaktoe.PerformLayout()
         Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -588,6 +571,4 @@ Partial Class MFOUR
     Friend WithEvents Button10 As Button
     Friend WithEvents REest As Button
     Friend WithEvents newgame As Button
-    Friend WithEvents Button1333 As Button
-    Friend WithEvents Button133 As Button
 End Class

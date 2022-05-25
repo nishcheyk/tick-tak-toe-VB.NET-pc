@@ -23,10 +23,8 @@ Partial Class MTHREE
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button13 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.exit1 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
         Me.Start1 = New System.Windows.Forms.Panel()
         Me.Start = New System.Windows.Forms.Button()
         Me.OPLAYER2 = New System.Windows.Forms.CheckBox()
@@ -64,26 +62,13 @@ Partial Class MTHREE
         '
         'Panel1
         '
-        Me.Panel1.Controls.Add(Me.Button13)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.exit1)
-        Me.Panel1.Controls.Add(Me.Button12)
         Me.Panel1.Location = New System.Drawing.Point(-4, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1184, 149)
         Me.Panel1.TabIndex = 17
-        '
-        'Button13
-        '
-        Me.Button13.BackgroundImage = Global.tick_tak_toe_part_2.My.Resources.Resources.pngwing_com__3_
-        Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Button13.Location = New System.Drawing.Point(70, 12)
-        Me.Button13.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(110, 92)
-        Me.Button13.TabIndex = 14
-        Me.Button13.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -109,19 +94,6 @@ Partial Class MTHREE
         Me.exit1.TabIndex = 11
         Me.exit1.Text = "EXIT"
         Me.exit1.UseVisualStyleBackColor = False
-        '
-        'Button12
-        '
-        Me.Button12.BackgroundImage = Global.tick_tak_toe_part_2.My.Resources.Resources.pngwing_com__2_
-        Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Button12.Location = New System.Drawing.Point(70, 12)
-        Me.Button12.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button12.Name = "Button12"
-        Me.Button12.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button12.Size = New System.Drawing.Size(110, 92)
-        Me.Button12.TabIndex = 13
-        Me.Button12.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
-        Me.Button12.UseVisualStyleBackColor = True
         '
         'Start1
         '
@@ -463,7 +435,7 @@ Partial Class MTHREE
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.SkyBlue
+        Me.BackColor = System.Drawing.Color.Tan
         Me.ClientSize = New System.Drawing.Size(1192, 848)
         Me.Controls.Add(Me.Start1)
         Me.Controls.Add(Me.tiktaktoe)
@@ -482,10 +454,8 @@ Partial Class MTHREE
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button13 As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents exit1 As Button
-    Friend WithEvents Button12 As Button
     Friend WithEvents Start1 As Panel
     Friend WithEvents Start As Button
     Friend WithEvents OPLAYER2 As CheckBox

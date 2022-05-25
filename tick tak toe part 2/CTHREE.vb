@@ -1,12 +1,12 @@
 ﻿Public Class CTHREE
 
-    Private Sub c_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub C_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
 
         tiktak.Hide()
 
 
-        My.Computer.Audio.Play("C:\Users\ACER\Music\Minoru 187 - Gaming Background Music (HD).wav.wav")
+
         XTURN.Visible = True
         OTURN.Visible = False
     End Sub
@@ -358,7 +358,7 @@
 
     'new game
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
-        Mainpage.Show()
+        Form1.Show()
         Me.Hide()
         tiktak.Hide()
         TextBox1.Text = ""
@@ -375,20 +375,6 @@
 
 
     'music playstop
-    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
-        My.Computer.Audio.Play("C:\Users\ACER\Music\Minoru 187 - Gaming Background Music (HD).wav.wav")
-        Button13.Show()
-        Button12.Hide()
-
-
-    End Sub
-
-    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
-        My.Computer.Audio.Stop()
-        Button12.Show()
-        Button13.Hide()
-
-    End Sub
 
 
 

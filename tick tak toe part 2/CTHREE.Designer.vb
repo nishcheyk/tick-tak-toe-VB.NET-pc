@@ -47,8 +47,6 @@ Partial Class CTHREE
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.exit1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
         Me.Startc = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -277,8 +275,6 @@ Partial Class CTHREE
         '
         Me.Panel1.Controls.Add(Me.exit1)
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.Button13)
-        Me.Panel1.Controls.Add(Me.Button12)
         Me.Panel1.Location = New System.Drawing.Point(12, 12)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1103, 125)
@@ -304,24 +300,6 @@ Partial Class CTHREE
         Me.Label1.Size = New System.Drawing.Size(398, 67)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "TIK TAK TOE"
-        '
-        'Button13
-        '
-        Me.Button13.Image = Global.tick_tak_toe_part_2.My.Resources.Resources.pngwing_com__3_
-        Me.Button13.Location = New System.Drawing.Point(51, 17)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(94, 78)
-        Me.Button13.TabIndex = 1
-        Me.Button13.UseVisualStyleBackColor = True
-        '
-        'Button12
-        '
-        Me.Button12.Image = Global.tick_tak_toe_part_2.My.Resources.Resources.pngwing_com__2_
-        Me.Button12.Location = New System.Drawing.Point(51, 19)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(94, 74)
-        Me.Button12.TabIndex = 0
-        Me.Button12.UseVisualStyleBackColor = True
         '
         'Startc
         '
@@ -407,8 +385,6 @@ Partial Class CTHREE
     Friend WithEvents Panel1 As Panel
     Friend WithEvents exit1 As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button12 As Button
     Friend WithEvents Startc As Button
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label3 As Label

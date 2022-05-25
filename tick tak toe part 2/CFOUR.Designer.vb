@@ -26,8 +26,6 @@ Partial Class CFOUR
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.exit1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1333 = New System.Windows.Forms.Button()
-        Me.Button133 = New System.Windows.Forms.Button()
         Me.Startm = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
@@ -69,8 +67,6 @@ Partial Class CFOUR
         '
         Me.Panel1.Controls.Add(Me.exit1)
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.Button1333)
-        Me.Panel1.Controls.Add(Me.Button133)
         Me.Panel1.Location = New System.Drawing.Point(12, 12)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1103, 125)
@@ -96,24 +92,6 @@ Partial Class CFOUR
         Me.Label1.Size = New System.Drawing.Size(398, 67)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "TIK TAK TOE"
-        '
-        'Button1333
-        '
-        Me.Button1333.Image = Global.tick_tak_toe_part_2.My.Resources.Resources.pngwing_com__3_
-        Me.Button1333.Location = New System.Drawing.Point(51, 17)
-        Me.Button1333.Name = "Button1333"
-        Me.Button1333.Size = New System.Drawing.Size(94, 78)
-        Me.Button1333.TabIndex = 1
-        Me.Button1333.UseVisualStyleBackColor = True
-        '
-        'Button133
-        '
-        Me.Button133.Image = Global.tick_tak_toe_part_2.My.Resources.Resources.pngwing_com__2_
-        Me.Button133.Location = New System.Drawing.Point(51, 19)
-        Me.Button133.Name = "Button133"
-        Me.Button133.Size = New System.Drawing.Size(94, 74)
-        Me.Button133.TabIndex = 0
-        Me.Button133.UseVisualStyleBackColor = True
         '
         'Startm
         '
@@ -469,8 +447,6 @@ Partial Class CFOUR
     Friend WithEvents Panel1 As Panel
     Friend WithEvents exit1 As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button1333 As Button
-    Friend WithEvents Button133 As Button
     Friend WithEvents Score2 As Label
     Friend WithEvents Score1 As Label
     Friend WithEvents Label5 As Label

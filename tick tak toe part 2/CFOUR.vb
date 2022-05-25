@@ -286,7 +286,7 @@
 
             End If
         End If
-
+        Checkforwin()
     End Sub
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
 
@@ -886,7 +886,7 @@
         tiktak.Hide()
         Startm.Show()
 
-        My.Computer.Audio.Play("C:\Users\ACER\Music\Minoru 187 - Gaming Background Music (HD).wav.wav")
+
         XTURN.Visible = True
         OTURN.Visible = False
     End Sub
@@ -914,29 +914,19 @@
 
     End Sub
 
-    Private Sub exit1_Click(sender As Object, e As EventArgs) Handles exit1.Click
+    Private Sub Exit1_Click(sender As Object, e As EventArgs) Handles exit1.Click
         Me.Close()
     End Sub
 
-    Private Sub Button1333_Click(sender As Object, e As EventArgs) Handles Button1333.Click
-        My.Computer.Audio.Stop()
-        Button133.Show()
-        Button1333.Hide()
-    End Sub
 
-    Private Sub Button133_Click(sender As Object, e As EventArgs) Handles Button133.Click
-        My.Computer.Audio.Play("C:\Users\ACER\Music\Minoru 187 - Gaming Background Music (HD).wav.wav")
-        Button1333.Show()
-        Button133.Hide()
 
-    End Sub
-
-    Private Sub tiktak_Paint(sender As Object, e As PaintEventArgs) Handles tiktak.Paint
-        Mainpage.Show()
-        Me.Hide()
-    End Sub
 
     Private Sub REest_Click(sender As Object, e As EventArgs) Handles REest.Click
         Resetbutton()
+    End Sub
+
+    Private Sub Newgame_Click(sender As Object, e As EventArgs) Handles newgame.Click
+        Me.Hide()
+        Form1.Show()
     End Sub
 End Class
